@@ -35,7 +35,7 @@ def get_frame_num(animation_type):
 
 
 def return_animation(action):
-    img = pygame.image.load(f'new project/人物素材/Samurai_Commander/{action}.png')
+    img = pygame.image.load(f'new project/figure material/Samurai_Commander/{action}.png')
     sprite = animation.Sprite(img)
     frames = []
     for frame_number in range(get_frame_num(action)):
