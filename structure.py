@@ -31,7 +31,7 @@ class Samurai(pygame.sprite.Sprite):
         self.y_vel = 0
         self.action_list = ['Idle', 'Walk','Jump']
         self.action_type = 0
-        self.model = pygame.image.load(f'new project/figure material/modle.png')
+        self.model = pygame.image.load(f'figure material/modle.png')
         self.animation_list = character.return_animation(f'{self.action_list[self.action_type]}')
         self.frame_index = 0
         self.rect = self.animation_list[self.frame_index].get_rect()
