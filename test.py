@@ -2,30 +2,6 @@ from tkinter import *
 import pygame
 pygame.init()
 
-def get_frame_num(animation_type):
-    frame_num = 0
-    if animation_type == 'Attack_1':
-        frame_num = 4
-    elif animation_type == 'Attact_2':
-        frame_num = 5
-    elif animation_type == 'Attack_3':
-        frame_num = 4
-    elif animation_type == 'Dead':
-        frame_num = 6
-    elif animation_type == 'Hurt':
-        frame_num = 2
-    elif animation_type == 'Idle':
-        frame_num = 5
-    elif animation_type == 'Jump':
-        frame_num = 7
-    elif animation_type == 'Protect':
-        frame_num = 2
-    elif animation_type == 'Run':
-        frame_num = 8
-    elif animation_type == 'Walk':
-        frame_num = 9
-    
-    return frame_num
 
 def get_frame(image, frame, width, height, scale, colour):
 	''' 
